@@ -16,24 +16,24 @@ A simple admin dashboard built with **Next.js**, **Tailwind CSS**, **React Query
 
 ## Getting Started
 
-1. **Install Dependencies**:
+### 1. **Install Dependencies**:
    npm install
-   # or
+    or
    yarn install
 
-2. **Run the Development Server**:
+### 2. **Run the Development Server**:
    npm run dev
-   # or
+    or
    yarn dev
 
-3. **Build for Production**:
+### 3. **Build for Production**:
    npm run build
-   # or
+    or
    yarn build
 
-4. **Start the production server**:
+### 4. **Start the production server**:
    npm start
-   # or
+    or
    yarn start
 
 
