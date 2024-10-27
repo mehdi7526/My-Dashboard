@@ -25,7 +25,7 @@ const AuthenticatedLayout: React.FC<AuthenticatedLayoutProps> = ({
   }, [router]);
 
   return (
-    <>{!isAuthenticated && <main className={` flex-1`}>{children}</main>}</>
+    <>{!isAuthenticated && <main className={` flex-1 px-3 lg:px-0`}>{children}</main>}</>
   );
 };
 

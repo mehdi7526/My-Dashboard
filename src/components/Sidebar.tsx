@@ -12,7 +12,7 @@ const Sidebar: React.FC = () => {
   return (
     <aside
       className={`bg-gray-900 text-white p-4 space-y-6 transition-all duration-300 ${
-        isOpen ? "w-64" : "w-20"
+        isOpen ? "lg:w-64 w-36" : "w-20"
       }`}
       onMouseEnter={() => setIsOpen(true)}
       onMouseLeave={() => setIsOpen(false)}

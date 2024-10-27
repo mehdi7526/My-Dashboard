@@ -30,7 +30,7 @@ const ListTable: React.FC<ListTableProps> = ({ data }) => {
               <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                 {post.id}
               </td>
-              <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-700">
+              <td className="px-6 py-4 whitespace-nowrap text-wrap text-sm text-gray-700">
                 {post.title}
               </td>
             </tr>
